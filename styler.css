@@ -1,0 +1,145 @@
+/* *, *:before, *:after {
+    box-sizing: border-box;
+} */
+
+div {
+    margin: auto;
+}
+
+ul {
+ /*    border: 1px solid#ccc;
+    border-radius: 0px;
+    border-color: black; */
+ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: white; */
+    font-size: 0.8em;
+}
+
+li {
+    /* display: inline; */
+    float: left;
+}
+
+#right {
+    /* display: inline; */
+    float: right;
+}
+
+#li3 {
+    /* display: inline; */
+    float: right;
+    background: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png) -132px -38px;
+    opacity: 50%;
+    margin: 8px 8px;
+}
+
+#li4 {
+    /* display: inline; */
+    float: right;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: white;
+    background-color: #4485f5;
+    padding: 10px 10px;
+    margin: 5px 5px;
+}
+
+
+li a {
+    display: block;
+    font-family: sans-serif;
+    color: rgb(63, 63, 63);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+
+    background-color: rgb(224, 224, 224);
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    clear: both;
+    position: fixed; 
+    /* height: 20px; */
+    bottom: 0;
+}
+  
+
+.essential {
+
+    display: block;
+    margin: 7em 2em;
+    /* padding: 30px; */
+}
+
+.logo_image {
+
+    display: block;
+    margin: auto;
+    padding: 0px;
+    width: 300px;
+    /* height: auto; */
+}
+
+form {
+    display: block;
+    margin: auto;
+    padding: 0.8em 0em;
+    width: 800px;
+}
+
+body {
+    height:100%;
+    min-height:100%;
+}
+
+input[type=text] {
+    display: block;
+    margin: 10px auto;
+    width: 60%;
+    padding: 15px;
+    border: 2px solid #eee;
+    border-radius: 20px;
+}
+
+.center {
+    display:flex;
+    justify-content: center;
+}
+
+button {
+
+    background-color: rgb(236, 236, 236);
+    border: none;
+    color: rgb(105, 105, 105);
+    margin: 0px 10px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+
+button:hover {
+
+    border: 1px solid#ccc;
+    border-radius: 0px;
+    border-color: grey;
+ 
+    color: rgb(24, 24, 24);
+
+}
